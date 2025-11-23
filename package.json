@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "uni dev"
+    "dev": "uni dev",
+    "build:h5": "uni build --platform h5"
   },
   "keywords": [],
   "author": "",

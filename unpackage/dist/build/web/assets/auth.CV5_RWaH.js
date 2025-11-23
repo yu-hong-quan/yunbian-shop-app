@@ -1,0 +1,1 @@
+import{p as o}from"./request.Dcis-RhW.js";const s=s=>o("/auth/sendCode",{phone:s}),e=(s,e)=>o("/auth/login/password",{phone:s,password:e}),a=(s,e)=>o("/auth/login/code",{phone:s,code:e}),p=(s,e,a)=>o("/auth/register",{phone:s,password:e,code:a});export{a,e as l,p as r,s};
