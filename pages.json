@@ -1,0 +1,92 @@
+{
+  "pages": [
+    {
+      "path": "pages/splash-ad/splash-ad",
+      "style": {
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "subPackages": [
+    {
+      "root": "pages/login",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "登录页",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "code-input",
+          "style": {
+            "navigationBarTitleText": "验证码登录",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "register",
+          "style": {
+            "navigationBarTitleText": "用户注册",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/product",
+      "pages": [
+        {
+      "path": "index",
+      "style": {
+        "navigationBarTitleText": "商品列表",
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "detail",
+      "style": {
+        "navigationBarTitleText": "商品详情",
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "add",
+      "style": {
+        "navigationBarTitleText": "添加商品",
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    }
+      ]
+    }
+  ],
+  "uniIdRouter": {}
+}
